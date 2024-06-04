@@ -15,6 +15,6 @@ namespace ZenekAdatbazis.Model
         public Ado Ado { get; set;}
         public int ZeneId { get; set;} //foreign key
         public Zene Zene { get; set;}
-        public ICollection<Musor> musorok { get; set;}
+        public int AdoRadioId { get; set;}
     }
 }
